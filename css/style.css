@@ -1,0 +1,48 @@
+#timeTracking{
+  width: 80%;
+  margin: 20px 10%;
+}
+.panel{
+  width: 50%;
+  margin: 20px 20%;
+  overflow: overlay;
+  background: #989898;
+  border: 2px solid #3a523a;
+  border-radius: 10px;
+}
+.panel div{
+  float: left;
+}
+.table{
+  border: 2px solid black;
+  padding: 10px;
+}
+.row{
+  margin: 10px 0;
+  overflow: overlay;
+}
+.btnstart,.btnstop{
+  padding: 15px;
+  width: auto;
+  width: 40%;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  background: #f3e8ff;
+}
+.currentTime{
+  width: 20%;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+  font-size: 24px;
+}
+.del{
+  padding: 0!important;
+  text-align: center;
+  font-size: 31px;
+  font-weight: 900;
+}
+.del,.btnstop,.title,.btnstart{
+  cursor: pointer;
+}
